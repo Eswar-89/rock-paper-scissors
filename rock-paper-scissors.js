@@ -133,7 +133,7 @@ function updateScoreElement(){
   } else if (randNum >= 1 / 3 && randNum < 2 / 3) {
     computerMove = 'paper';
   } else if (randNum >= 2 / 3 && randNum < 1) {
-    computerMove = 'Scissors';
+    computerMove = 'scissors';
   }
 
   return computerMove;
